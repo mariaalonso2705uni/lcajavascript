@@ -62,3 +62,12 @@ function lowestCommonAncestor(root, node1, node2) {
   
   console.log(lowestCommonAncestor(root, 1, 8));
   
+
+  const root = new Node(2);
+  root.left = new Node(7);
+  root.left.left = new Node(8);
+  root.left.right = new Node(6);
+  root.right = new Node(5);
+  
+  console.log(lowestCommonAncestor(root, 8, 5));
+  
