@@ -48,26 +48,26 @@ function lowestCommonAncestor(root, node1, node2) {
     this.left = this.right = null;
   }
   
-  //       7
-  //      / \
-  //     4   8
-  //    / \
-  //   1  5
+  // //       7
+  // //      / \
+  // //     4   8
+  // //    / \
+  // //   1  5
   
-  const root = new Node(7);
-  root.left = new Node(4);
-  root.left.left = new Node(1);
-  root.left.right = new Node(5);
-  root.right = new Node(8);
+  // const root = new Node(7);
+  // root.left = new Node(4);
+  // root.left.left = new Node(1);
+  // root.left.right = new Node(5);
+  // root.right = new Node(8);
   
-  console.log(lowestCommonAncestor(root, 1, 8));
+  // console.log(lowestCommonAncestor(root, 1, 8));
   
 
-  const root2 = new Node(2);
-  root2.left = new Node(7);
-  root2.left.left = new Node(8);
-  root2.left.right = new Node(6);
-  root2.right = new Node(5);
+  // const root2 = new Node(2);
+  // root2.left = new Node(7);
+  // root2.left.left = new Node(8);
+  // root2.left.right = new Node(6);
+  // root2.right = new Node(5);
   
-  console.log(lowestCommonAncestor(root2, 8, 5));
+  // console.log(lowestCommonAncestor(root2, 8, 5));
   
